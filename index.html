@@ -126,39 +126,42 @@
   </section>
 
 
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
+  <!-- Teaser video-->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <video poster="" id="tree" autoplay controls muted loop height="100%">
+          <!-- Your video here -->
+          <source src="static/videos/banner_video.mp4"
+          type="video/mp4">
+        </video>
+        <h2 class="subtitle has-text-centered">
+          Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        </h2>
+      </div>
     </div>
-  </div>
-</section>
-<!-- End teaser video -->
+  </section>
+  <!-- End teaser video -->
 
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Since the recent success of a time-domain speech separation, further improvements have been made by reducing the length of the sequence as little as possible to increase the amount of computation.
+Minimizing data suppression should be effective because separation has to generate more output than input data. Previous studies have addressed the long sequence by avoiding direct processing of long sequences by dividing the sequence into chunk units, also known as dual-path model. In particular, it is common for the process of separating features as much as the number of speakers to be located at the very end of the network. Therefore, it is an inevitably inefficient separation method. Rather, it is desirable and natural to extend the feature sequence as much as the number of speakers as an additional dimensions in advance, and to consider them together.
+Accordingly, this paper presents an asymmetric strategy in which the encoder and decoder is partitioned to perform distinct processing in separation tasks. The encoder analyzes features and the output of the encoder is split into the number of speakers to be separated, and reconstructed commonly by the decoder. Using a common split layer, we also split intermittent encoder features as skip connection for reconstruction decoder based on the U-Net structure. In addition, we refrain from dividing chunks into dual-paths and design and utilize both global and local blocks to directly process long sequences.
+The experiment suggests that this separation-reconstruction structure is effective and that the proposed global and local blocks alone can sufficiently replace the dual-path structure, suggesting very effectiveness. Therefore, the final model proposed including both of these achieved state-of-the-art performance with much less computation than before in various benchmark datasets.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-<!-- End paper abstract -->
+  </section>
+  <!-- End paper abstract -->
 
 
 <!-- Image carousel -->
